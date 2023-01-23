@@ -100,7 +100,7 @@ const Analytics = ({ allTransection }) => {
           </div>
         </div>
       </div>
-      <div className="row mt-3">
+      <div className="row mt-3 ml-2">
         <div className="col-md-4">
           <h4>Categorywise Income</h4>
           {categories.map((category) => {
@@ -127,7 +127,7 @@ const Analytics = ({ allTransection }) => {
             );
           })}
         </div>
-        <div className="col-md-4">
+        <div className="col-md-4 ml-2">
           <h4>Categorywise Expense</h4>
           {categories.map((category) => {
             const amount = allTransection
